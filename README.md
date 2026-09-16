@@ -272,7 +272,7 @@ This repo went through a security review and cleanup after the original bootcamp
 - **Private container registry** — the Docker Hub repository is private, not public; pulling the image requires authentication.
 - **Scoped registry credentials** — Kubernetes authenticates to Docker Hub using a **read-only** access token (via `imagePullSecret`), not the full Docker Hub account password, and not a broadly-scoped token.
 
-If you're setting this up fresh, see **Getting started** below.
+If you're setting this up fresh, see **Getting started** above.
 
 ---
 
